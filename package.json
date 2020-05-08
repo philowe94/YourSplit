@@ -14,7 +14,7 @@
         "popper": "^1.0.1"
     },
     "scripts": {
-        "start": "npm run lite"
+        "start": "npm run lite",
         "dev": "lite-server",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
