@@ -1,22 +1,23 @@
 {
-  "name": "yoursplit",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "lite-server": "^2.5.4",
-    "minimist": ">=1.2.3",
-    "save-dev": "0.0.1-security"
-  },
-  "devDependencies": {
-    "bootstrap": "^4.4.1",
-    "jquery": "^3.5.1",
-    "popper": "^1.0.1"
-  },
-  "scripts": {
-    "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Philip Lowe",
-  "license": "ISC"
+    "name": "yoursplit",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "lite-server": "^2.5.4",
+        "minimist": ">=1.2.3",
+        "save-dev": "0.0.1-security"
+    },
+    "devDependencies": {
+        "bootstrap": "^4.4.1",
+        "jquery": "^3.5.1",
+        "popper": "^1.0.1"
+    },
+    "scripts": {
+        "start": "npm run lite"
+        "dev": "lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Philip Lowe",
+    "license": "ISC"
 }
