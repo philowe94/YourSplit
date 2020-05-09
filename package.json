@@ -5,15 +5,15 @@
     "main": "index.js",
     "dependencies": {
         "http-server": "^0.12.3",
-        "lite-server": "^2.5.4",
         "minimist": ">=1.2.3",
         "popper": "^1.0.1",
         "save-dev": "0.0.1-security",
-        "server": "^1.0.27"
-    },
-    "devDependencies": {
+        "server": "^1.0.27",
         "bootstrap": "^4.4.1",
         "jquery": "^3.5.1"
+    },
+    "devDependencies": {
+        "lite-server": "^2.5.4"
     },
     "scripts": {
         "start": "http-server",
